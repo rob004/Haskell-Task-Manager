@@ -3,17 +3,13 @@ module Main where
 import System.Exit ( exitSuccess )
 import Text.Read ( readMaybe )
 
-
 type Tarefa = String
-
-
 type ListaDeTarefas = [Tarefa]
 
 
 main :: IO ()
 main = do
-    putStrLn "--- Bem-vindo ao Gerenciador de Tarefas! ---"
-   
+    putStrLn "--- Bem-vindo ao Gerenciador de Tarefas! ---"   
     loop []
 
 
@@ -107,4 +103,5 @@ removerTarefa tarefas =
 
 removerPorIndice :: Int -> [a] -> [a]
 removerPorIndice _ [] = [] 
+
 removerPorIndice n xs = take n xs ++ drop (n + 1) xs
