@@ -41,7 +41,7 @@ Agosto de 2025
 
 # Task Manager in Haskell
 
-This project is a simple task manager built in Haskell, developed as part of the **Programming Paradigms** course in the Computer Engineering program at IFMG – Campus Bambuí.
+This project is a simple task manager built in Haskell.
 
 ## Description
 
