@@ -1,7 +1,6 @@
 # Gerenciador de Tarefas em Haskell
 
-Este projeto é um gerenciador de tarefas simples feito em Haskell, como atividade da disciplina **Paradigmas de Programação** no curso de Engenharia de Computação do IFMG – Campus Bambuí.
-
+Este projeto é um gerenciador de tarefas simples feito em Haskell.
 ## Descrição
 
 O programa funciona no terminal e permite:
